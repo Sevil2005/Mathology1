@@ -91,10 +91,14 @@ header{
 
 .info{
     flex: 3;
+    display: flex;
+    justify-content: space-around;
 }
 
 .social-media{
     flex: 1;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .navbar-top .info a{
@@ -133,7 +137,6 @@ header{
 .nav-links{
     display: flex;
     flex: 1;
-    justify-content: space-around;
     list-style: none;
 }
 
@@ -146,6 +149,7 @@ header{
 
 .log-reg{
     flex: 1;
+    display: flex;
     justify-content: flex-end;
 }
 
