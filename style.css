@@ -132,7 +132,7 @@ header{
 
 .nav-links{
     display: flex;
-    flex: 7;
+    flex: 1;
     justify-content: space-around;
     list-style: none;
 }
