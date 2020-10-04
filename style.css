@@ -17,7 +17,8 @@ header{
 }
 
 .banner{
-    margin-top: 80px;
+    width: 90%;
+    margin: auto;
 }
 
 .container{
@@ -39,6 +40,7 @@ header{
     line-height: 9rem;
     letter-spacing: 0.2rem;
     text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.4);
+    margin-top: 60px;
 }
 
 .banner p{
@@ -54,7 +56,6 @@ header{
 .banner a button{
     width: 25rem;
     height: 7rem;
-    /* background-color: #c29525; */
     background-image: linear-gradient(to right, #d83170 , #772d9f );
     border: none;
     border-radius: 30px;
@@ -80,7 +81,6 @@ header{
 
 .logo{
     flex: 1;
-    background-color: brown;
 }
 
 .logo img{
@@ -91,12 +91,10 @@ header{
 
 .info{
     flex: 3;
-    background-color: black;
 }
 
 .social-media{
     flex: 1;
-    background-color: blueviolet;
 }
 
 .navbar-top .info a{
@@ -130,7 +128,6 @@ header{
     display: flex;
     width: 90%;
     margin: auto;
-    background-color: yellow;
 }
 
 .nav-links{
@@ -138,7 +135,6 @@ header{
     flex: 7;
     justify-content: space-around;
     list-style: none;
-    background-color: blueviolet;
 }
 
 .nav-link{
@@ -150,7 +146,6 @@ header{
 
 .log-reg{
     flex: 1;
-    background-color: black;
     justify-content: flex-end;
 }
 
