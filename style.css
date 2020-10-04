@@ -27,6 +27,7 @@ header{
     background-position: center;
     background-size: cover;
     background-color: #1d165c;
+    overflow: hidden;
 }
 
 .banner h1{
@@ -38,8 +39,6 @@ header{
     line-height: 9rem;
     letter-spacing: 0.2rem;
     text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.4);
-    opacity: 0;
-    animation: moveBanner 1s 0.5s forwards;
 }
 
 .banner p{
@@ -50,8 +49,6 @@ header{
     letter-spacing: 0.1rem;
     margin-bottom: 3rem;
     text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.4);
-    opacity: 0;
-    animation: moveBanner 1s 0.7s forwards;
 }
 
 .banner a button{
@@ -63,28 +60,14 @@ header{
     border-radius: 30px;
     font-family: 'Mulish', serif;
     font-size: 2rem;
-    text-transform: uppercase;
     color: #fff;
     text-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
     box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.4);
     cursor: pointer;
-    opacity: 0;
-    animation: moveBanner 1s 0.9s forwards;
 }
 
 .banner a button:hover{
     background-image: linear-gradient(to right, #772d9f,  #d83170); 
-}
-
-@keyframes moveBanner{
-    0%{
-        transform: translateY(40rem) rotateY(-20deg);
-    }
-    100%{
-        transform: translateY(0) rotateY(0);
-        opacity: 1;
-    }
-    
 }
 
 .navbar-top{
